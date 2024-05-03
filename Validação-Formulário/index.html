@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="validacao.css">
+    <script defer src="validacao.js"></script>
+</head>
+<body>
+    <script src="scriptmenu.js"></script>
+    <div class="container">
+        <form id="form" action="/">
+            <h1 class="titulo">Formulário</h1>
+            <div class="input-control">
+                <label for="username">Nome e sobrenome</label>
+                <input id="username" name="username" type="text" placeholder="Digite seu nome e sobrenome" autocomplete="off">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="text" placeholder="exemplo@gmail.com" autocomplete="off">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="CPF">CPF</label>
+                <input id="CPF" name="CPF" type="text" placeholder="xxx.xxx.xxx-xx" autocomplete="off">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="TELL">Número</label>
+                <input id="TELL" name="Number" type="text" placeholder="(xx) xxxxx-xxxx" autocomplete="off">
+                <div class="error"></div>
+            <button class="bot" type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+
+
